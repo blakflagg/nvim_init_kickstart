@@ -318,7 +318,7 @@ vim.o.colorcolumn="120"
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
-vim.keymap.set("i","jk","<Esc>")
+vim.keymap.set({"i","v"},"jk","<Esc>")
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
 -- moving lines up or down using viusal mode
