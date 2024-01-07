@@ -324,6 +324,7 @@ vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 -- moving lines up or down using viusal mode
 vim.keymap.set("v","J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v","K", ":m '<-2<CR>gv=gv")
+vim.keymap.set("n","vv","0v$")
 
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
