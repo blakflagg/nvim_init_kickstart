@@ -1,0 +1,31 @@
+{
+    "workspace.library": [
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\neodev.nvim\\types\\stable",
+        "C:\\Program Files\\Neovim\\share\\nvim\\runtime\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\fidget.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\cmp-nvim-lsp\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\neodev.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\cmp-path\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\nvim-treesitter\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\nvim-lspconfig\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\conform.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\tokyonight.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\mason.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\mason-lspconfig.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\nvim-cmp\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\mini.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\todo-comments.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\plenary.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\cmp_luasnip\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\LuaSnip\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\telescope.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\mason-tool-installer.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\which-key.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\gitsigns.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\Comment.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\telescope-ui-select.nvim\\lua",
+        "C:\\Users\\dduff\\AppData\\Local\\nvim-data\\lazy\\lazy.nvim\\lua",
+        "C:/Users/dduff/AppData/Local/nvim/lua",
+        "${3rd}/luv/library"
+    ]
+}
