@@ -143,7 +143,8 @@ vim.opt.splitbelow = true
 --  and `:help 'listchars'`
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
-
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 0
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = "split"
 
@@ -183,8 +184,9 @@ vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagn
 --
 -- NOTE: This won't work in all terminal emulators/tmux/etc. Try your own mapping
 -- or just use <C-\><C-n> to exit terminal mode
-vim.keymap.set("t", "<leader>t", "<C-\\><C-n> :ToggleTerm<CR>", { desc = "Exit terminal mode" })
-vim.keymap.set("n", "<leader>t", ":ToggleTerm<CR>")
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Terminal normal mode" })
+vim.keymap.set("t", "<C-t>", "<C-\\><C-n> :ToggleTerm<CR>", { desc = "Exit terminal mode" })
+vim.keymap.set("n", "<C-t>", ":ToggleTerm<CR>", { desc = "Toggle Terminal" })
 -- TIP: Disable arrow keys in normal mode
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
 -- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
